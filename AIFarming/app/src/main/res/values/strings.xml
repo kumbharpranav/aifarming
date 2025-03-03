@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AI Farming</string>
+    <!-- Replace with your actual web client ID from the Firebase Console -->
+    <string name="default_web_client_id">YOUR_DEFAULT_WEB_CLIENT_ID_HERE</string>
+</resources>
