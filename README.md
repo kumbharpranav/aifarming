@@ -36,24 +36,7 @@ With an intuitive Android interface and robust backend services, our system is d
 - **Cloud Integration:** Seamless data management with AWS and Firebase.
 - **User-Friendly Interface:** Simple, intuitive design for farmers.
 
-## Directory Structure
-
-Explore the repository structure below. Click on any directory to navigate:
-
-- **[app](https://github.com/kumbharpranav/aifarming/tree/main/main/app)**  
-  Contains the Android application source code.
-- **[src](https://github.com/kumbharpranav/aifarming/tree/main/main/src)**  
-  Core application modules, utilities, and business logic.
-- **[docs](https://github.com/kumbharpranav/aifarming/tree/main/docs)**  
-  Documentation, user guides, and API references.
-- **[assets](https://github.com/kumbharpranav/aifarming/tree/main/main/assets)**  
-  Images, icons, and other media resources.
-- **[scripts](https://github.com/kumbharpranav/aifarming/tree/main/main/scripts)**  
-  Build scripts and automation tools.
-- **[firebase](https://github.com/kumbharpranav/aifarming/tree/main/main/firebase)**  
-  Configuration and rules for Firebase integration.
-
-*Note:* The above directories are examples based on the current repository structure. For a full view, visit the [repository root](https://github.com/kumbharpranav/aifarming/tree/main).
+(https://github.com/kumbharpranav/aifarming/tree/main).
 
 ## Getting Started
 
