@@ -1,7 +1,6 @@
 # AI Farming
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/kumbharpranav/aifarming/build.yml?branch=main)
-![License](https://img.shields.io/github/license/kumbharpranav/aifarming)
+
 ![GitHub stars](https://img.shields.io/github/stars/kumbharpranav/aifarming)
 
 Welcome to **AI Farming** – an innovative project that leverages Artificial Intelligence to revolutionize farming techniques. This repository hosts a complete suite of applications and tools designed to help farmers make informed decisions with the power of AI.
