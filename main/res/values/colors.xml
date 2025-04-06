@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="primary">#1E8951</color>
+    <color name="primary_dark">#005E27</color>
+    <color name="primary_light">#58B97E</color>
+    <color name="accent">#FF6200EE</color>
+    
+    <!-- Alert colors -->
+    <color name="light_red">#FFCDD2</color>
+    <color name="light_green">#C8E6C9</color>
+    <color name="dark_red">#D32F2F</color>
+    <color name="dark_green">#388E3C</color>
+    
+    <!-- Light theme colors -->
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_text_primary">#212121</color>
+    <color name="light_text_secondary">#757575</color>
+    
+    <!-- Dark theme colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#B0B0B0</color>
+    
+    <!-- 3D Gradient Colors for Light Theme -->
+    <color name="gradient_light_start">#58B97E</color>
+    <color name="gradient_light_center">#1E8951</color>
+    <color name="gradient_light_end">#005E27</color>
+    
+    <!-- 3D Gradient Colors for Dark Theme -->
+    <color name="gradient_dark_start">#4CB480</color>
+    <color name="gradient_dark_center">#158349</color>
+    <color name="gradient_dark_end">#004C1F</color>
+    
+    <!-- 3D Gradient Colors -->
+    <color name="gradient_start_light">#58B97E</color>
+    <color name="gradient_center_light">#1E8951</color>
+    <color name="gradient_end_light">#005E27</color>
+    
+    <color name="gradient_start_dark">#4CB480</color>
+    <color name="gradient_center_dark">#158349</color>
+    <color name="gradient_end_dark">#004C1F</color>
+    
+    <!-- Standard colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#757575</color>
+    
+    <!-- Legacy colors (keeping for backward compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- New colors for status indicators -->
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorRed">#F44336</color>
+    
+    <!-- Additional colors -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorBackground">#FFFFFF</color>
+    
+    <!-- Severity colors -->
+    <color name="severity_high">#FF0000</color>
+    <color name="severity_medium">#FFA500</color>
+    <color name="severity_low">#00FF00</color>
+    
+    <!-- New color definition -->
+    <color name="blue">#0000FF</color>
+</resources>

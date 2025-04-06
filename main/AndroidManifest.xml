@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.farming.ai">
+
+    <!-- Internet permissions for APIs -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- Location permissions for weather and map -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- Storage permissions for images -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" 
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+        android:maxSdkVersion="32" />
+    
+    <!-- Camera permission for crop images -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- Post notifications permission -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".AIFarmingApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIFarming"
+        tools:targetApi="31">
+        
+        <!-- Splash and Welcome Activity -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AIFarming.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Authentication Activities -->
+        <activity 
+            android:name=".ui.auth.WelcomeActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.auth.LoginActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.auth.RegisterActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+            
+        <!-- Feature Activities -->
+        <activity 
+            android:name=".ui.crops.CropMonitoringActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.crops.AddCropActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.crops.CropDetailActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.pests.PestDetectionActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.pests.PestAnalysisActivity"
+            android:parentActivityName=".ui.pests.PestDetectionActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.resources.ResourceOptimizationActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.videos.VideoLibraryActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.videos.VideoSearchActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.maps.MapsActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.profile.UserProfileActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.settings.SettingsActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        <activity 
+            android:name=".ui.notifications.NotificationsActivity"
+            android:theme="@style/Theme.AIFarming.NoActionBar" />
+        
+        <!-- FileProvider for secure image sharing -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        
+        <!-- Add Google Maps API key metadata -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_MAPS_API_KEY"/>
+        
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".services.FarmingFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        
+        <!-- FileProvider for camera captures -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

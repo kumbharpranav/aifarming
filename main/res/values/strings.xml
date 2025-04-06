@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Farming</string>
+    
+    <!-- Auth related strings -->
+    <string name="welcome_text">Welcome to AI Farming</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="login_now">Login now</string>
+    <string name="full_name">Full Name</string>
+    
+    <!-- Dashboard strings -->
+    <string name="dashboard">Dashboard</string>
+    <string name="crop_monitoring">Crop Monitoring</string>
+    <string name="pest_detection">Pest Detection</string>
+    <string name="resource_optimization">Resource Optimization</string>
+    <string name="video_library">Video Library</string>
+    <string name="maps">Maps</string>
+    <string name="weather">Weather</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    
+    <!-- Crop related strings -->
+    <string name="add_crop">Add Crop</string>
+    <string name="crop_name">Crop Name</string>
+    <string name="crop_variety">Crop Variety</string>
+    <string name="planting_date">Planting Date</string>
+    <string name="expected_harvest_date">Expected Harvest Date</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_from_gallery">Select from Gallery</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="analyze_crop">Analyze Crop</string>
+    
+    <!-- Alert strings -->
+    <string name="alert_title">Crop Alert</string>
+    <string name="water_needed">Water needed</string>
+    <string name="fertilizer_needed">Fertilizer needed</string>
+    <string name="pest_detected">Pest detected</string>
+    <string name="disease_detected">Disease detected</string>
+    <string name="harvest_time">Harvest time</string>
+    
+    <!-- Permission strings -->
+    <string name="permission_required">Permission Required</string>
+    <string name="camera_permission_required">Camera permission is required to take crop photos.</string>
+    <string name="location_permission_required">Location permission is required for weather and map features.</string>
+    <string name="storage_permission_required">Storage permission is required to save crop photos.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    
+    <!-- Error strings -->
+    <string name="error_occurred">An error occurred</string>
+    <string name="try_again">Try Again</string>
+    <string name="connection_error">Connection error. Please check your internet connection.</string>
+    <string name="unknown_error">An unknown error occurred. Please try again later.</string>
+    
+    <!-- Success strings -->
+    <string name="crop_added_successfully">Crop added successfully</string>
+    <string name="crop_updated_successfully">Crop updated successfully</string>
+    <string name="crop_deleted_successfully">Crop deleted successfully</string>
+    <string name="analysis_complete">Analysis complete</string>
+    
+    <!-- Weather descriptions -->
+    <string name="weather_sunny">Clear skies</string>
+    <string name="weather_rainy">Rainy conditions</string>
+    <string name="weather_cloudy">Cloudy skies</string>
+    <string name="weather_stormy">Thunderstorms</string>
+    
+    <!-- Notifications -->
+    <string name="watering_notification_title">Time to Water</string>
+    <string name="fertilizer_notification_title">Time to Fertilize</string>
+    <string name="watering_notification_text">Your %1$s needs watering!</string>
+    <string name="fertilizer_notification_text">Time to apply fertilizer to your %1$s</string>
+    
+    <!-- Crop status messages -->
+    <string name="crop_status_loading">Loading status...</string>
+    <string name="crop_status_login_required">Login to see status</string>
+    <string name="crop_status_ok">Crops OK</string>
+    <string name="crop_status_attention">Attention Needed</string>
+    <string name="crop_status_no_crops">No crops added yet</string>
+    <string name="crop_status_error">Error loading status</string>
+    <string name="select_crop_for_pest_detection">Select Crop for Pest Detection</string>
+    <string name="no_crops_add_some_first">No crops added. Add some from the monitoring screen first.</string>
+    <string name="image_selected_for_pest_analysis">Image selected for pest analysis</string>
+    <string name="suggested_videos">Suggested Videos:</string>
+    <string name="selected_crop_dynamic">Selected Crop: %1$s</string>
+</resources>

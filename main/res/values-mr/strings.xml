@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Farming</string>
+    <string name="welcome_text">AI Farming मध्ये आपले स्वागत आहे</string>
+    <string name="login">लॉगिन</string>
+    <string name="register">नोंदणी</string>
+    <!-- Add all other strings in Marathi -->
+    <string name="language">भाषा</string>
+    <string name="select_language">भाषा निवडा</string>
+</resources>

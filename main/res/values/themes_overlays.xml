@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AIfarming.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AIfarming.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+</resources>
